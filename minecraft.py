@@ -60,7 +60,7 @@ class MCServerSensor(Entity):
     @property
     def device_state_attributes(self):
         """Return the state attributes."""
-        return {'Ping': str(self._ping) + 'ms')}
+        return {'Ping': str(self._ping) + 'ms'}
 
     @property
     def icon(self):
